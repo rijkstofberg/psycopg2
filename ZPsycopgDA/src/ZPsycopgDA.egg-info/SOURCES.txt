@@ -1,0 +1,16 @@
+CHANGES.txt
+CONTRIBUTORS.txt
+README.txt
+setup.py
+src/ZPsycopgDA/DA.py
+src/ZPsycopgDA/__init__.py
+src/ZPsycopgDA/db.py
+src/ZPsycopgDA/pool.py
+src/ZPsycopgDA.egg-info/PKG-INFO
+src/ZPsycopgDA.egg-info/SOURCES.txt
+src/ZPsycopgDA.egg-info/dependency_links.txt
+src/ZPsycopgDA.egg-info/entry_points.txt
+src/ZPsycopgDA.egg-info/namespace_packages.txt
+src/ZPsycopgDA.egg-info/not-zip-safe
+src/ZPsycopgDA.egg-info/requires.txt
+src/ZPsycopgDA.egg-info/top_level.txt
