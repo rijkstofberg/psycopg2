@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '2.0'
+version = '2.4.4'
 
 long_description = (
     open('README.txt').read()
@@ -16,7 +16,7 @@ long_description = (
 
 setup(name='ZPsycopgDA',
       version=version,
-      description="Z",
+      description="Zope bindings for psycopg2.",
       long_description=long_description,
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
@@ -24,12 +24,12 @@ setup(name='ZPsycopgDA',
         "Programming Language :: Python",
         ],
       keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
-      license='gpl',
-      packages=find_packages('src'),
-      package_dir = {'': 'src'},
+      author='Federico Di Gregorio',
+      author_email='fog@initd.org',
+      url='http://initd.org/psycopg/',
+      license='GPL with exceptions or ZPL',
+      packages=find_packages('.'),
+      package_dir = {'': '.'},
       namespace_packages=['ZPsycopgDA'],
       include_package_data=True,
       zip_safe=False,

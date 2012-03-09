@@ -1,8 +1,7 @@
 Changelog
 =========
 
-2.0dev (unreleased)
+2.4.4
 -------------------
 
-- Package created using zopeskel
-  []
+- Make this and egg.
